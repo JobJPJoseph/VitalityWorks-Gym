@@ -11,13 +11,55 @@ body {
 #nav__navigation--space-between {
     display: flex;
     flex-direction: row;
+    flex-wrap: nowrap;
     justify-content: space-around;
     border: 3px solid white;
     width: 100%;
-    height: 75px;
+    height: 50px;
     align-items: center;
+    margin: 0px 0px 100px;
 }
 
 #nav__navigation--space-between > .a__nav__links {
     border: 2px dashed lawngreen;
+    text-decoration: none;
+    color: white;
+}
+
+#div__content-box {
+    border: 3px solid white;
+    margin: 25px 40px 0px;
+}
+
+#sec__content--flex-column {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    border: 2px solid lightcoral;
+}
+
+#div__main-header-box{
+    border: 2px dashed orchid;
+    width: 100%;
+    text-align: center;
+}
+
+#div__main-header {
+    display: inline-block;
+    border: 1px dashed red;
+    font-size: 40px;
+    margin: 0px 0px 40px;
+}
+
+#div__members-top-box {
+    border: 2px solid firebrick;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+
+}
+
+footer {
+    border: 3px solid white;
 }
