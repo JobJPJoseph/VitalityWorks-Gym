@@ -1,5 +1,7 @@
 * {
     box-sizing: border-box;
+    display: block;
+    position: relative;
 }
 
 body {
@@ -115,30 +117,50 @@ body {
 
 .sec__content-price-box {
     border: 2px solid purple;
+    width: 100%;
     display: flex;
     flex-direction: row;
-    width: 100%;
     justify-content: center;
+    align-items: flex-start;
 }
 
 .img__dollar-sign-box {
     border: 1px dashed lawngreen;
+    width: 30px;
 
 }
 
 .img__dollar-sign {
-    border: 2px solid darkblue;
+    margin: 0;
+    text-align: right;
+}
 
+.p__dollar-sign {
+    margin: 0px 3px 0px 0px;
+    text-align: right;
+    font-size: 30px;
 }
 
 .p__content-header-price--large-box {
-    border: 2px solid chocolate;
-
+    border: 1px dashed chocolate;
+    width: 70px;
+    height: 70px;
 }
 
 .p__content-header-price--large {
-    display: inline;
+    font-size: 60px;
+    margin: 0;
+}
 
+.p__content-header-price--small-box {
+    border: 1px dashed darkgoldenrod;
+    width: 40px;
+
+}
+
+.p__content-header-price--small {
+    font-size: 30px;
+    margin: 6px 0px 0px;
 }
 
 .div__link-box {
