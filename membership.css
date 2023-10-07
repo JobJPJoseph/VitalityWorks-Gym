@@ -163,6 +163,36 @@ body {
     margin: 6px 0px 0px;
 }
 
+.sec__content-price--extra {
+    border: 2px solid royalblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+.p__payment-header-box {
+    border: 2px solid green;
+}
+
+.p__payment-header {
+    font-size: 13px;
+}
+
+.p__access-header-box {
+    border: 2px solid cyan;
+}
+
+.p__access-header {
+    font-size: 13px;
+}
+
+.div__decoration-bar {
+    height: 3px;
+    width: 90px;
+    background-color: red;
+}
+
 .div__link-box {
     display: flex;
     justify-content: space-around;
