@@ -1,6 +1,5 @@
 * {
     box-sizing: border-box;
-    display: block;
     position: relative;
 }
 
@@ -251,7 +250,7 @@ body {
     margin: 0px;
     font-size: 16px;
     text-align: center;
-    padding: 0px 10px 0px;
+    padding: 0px 15px 0px;
 }
 
 #div__content-boxes--left {
