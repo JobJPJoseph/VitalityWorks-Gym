@@ -208,6 +208,103 @@ body {
     align-self: center;
 }
 
+
+/*Bottom half */
+#div__members-bottom {
+    border: 3px solid firebrick;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.div__content-boxes--flex-rows-box {
+    border: 2px solid saddlebrown;
+    margin: 0px;
+    width: 100%;
+}
+
+.sec__membership-info--flex-col {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    border: 2px solid grey;
+    align-items: center;
+}
+
+.div__header-box {
+    border: 1px dashed olive;
+    width: 100%;
+}
+
+.div__h3__header {
+    font-size: 14px;
+    text-align: center;
+}
+
+.div__membership-extras-box {
+    margin: 5px 0px;
+    border: 1px dashed hotpink;
+    width: 100%;
+}
+
+.p__members-info--text {
+    margin: 0px;
+    font-size: 16px;
+    text-align: center;
+    padding: 0px 10px 0px;
+}
+
+#div__content-boxes--left {
+    border: 2px solid gold;
+    margin: 0px 7px 0px 0px;
+}
+
+#div__content-boxes--middle {
+    margin: 0px 7px;
+    border: 2px solid deepskyblue;
+}
+
+#div__content-boxes--right {
+    margin: 0px 0px 0px 7px;
+    border: 2px solid purple;
+}
+
 footer {
     border: 3px solid white;
+    height: 150px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer__sec__logo-rights {
+    border: 2px solid darkolivegreen;
+    text-align: center;
+    width: 100%;
+}
+
+#div__logo-box {
+    border: 1px dashed tan;
+    width: 100%;
+    padding-bottom: 2.5px;
+}
+
+#h4__logo {
+    margin: 0;
+    font-size: 20px;
+    text-align: center;
+}
+
+#div__rights-box {
+    border: 1px dashed skyblue;
+    width: 100%;
+}
+
+#p__rights {
+    margin: 0px;
+    font-size: 13px;
+    text-align: center;
+    padding-top: 2.5px;
 }
