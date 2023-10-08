@@ -4,9 +4,24 @@
 }
 
 body {
-    background-color: black;
-    color: white;
+    background-color: white;
+    color: black;
     margin: 0px;
+}
+
+@font-face {
+    font-family: 'Commissioner';
+    src: url(./Commissioner/Commissioner-VariableFont_FLAR\,VOLM\,slnt\,wght.ttf);
+}
+
+@font-face {
+    font-family: 'Epilogue';
+    src: url(./Epilogue/Epilogue-Italic-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: 'Dosis';
+    src: url(./Dosis/Dosis-VariableFont_wght.ttf);
 }
 
 #nav__navigation--space-between {
@@ -14,22 +29,25 @@ body {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
-    border: 3px solid white;
     width: 100%;
     height: 50px;
     align-items: center;
     margin: 0px 0px 100px;
+    background-color: black;
+    position: sticky;
+    top: 0;
+    z-index: 1;
 }
 
 #nav__navigation--space-between > .a__nav__links {
-    border: 2px dashed lawngreen;
     text-decoration: none;
     color: white;
+    font-family: 'Commissioner';
+    font-weight: 500;
 }
 
 #div__content-box {
-    border: 3px solid white;
-    margin: 25px 40px 0px;
+    margin: 25px 80px 0px;
 }
 
 #sec__content--flex-column {
@@ -37,24 +55,23 @@ body {
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
-    border: 2px solid lightcoral;
 }
 
 #div__main-header-box{
-    border: 2px dashed orchid;
     width: 100%;
     text-align: center;
 }
 
 #div__main-header {
     display: inline-block;
-    border: 1px dashed red;
-    font-size: 40px;
-    margin: 0px 0px 40px;
+    font-size: 35px;
+    margin: 0px 0px 30px;
+    font-family: 'Commissioner';
+    font-weight: 600;
+    color: #212121;
 }
 
 #div__members-top-box {
-    border: 2px solid firebrick;
     width: 100%;
 }
 
@@ -66,24 +83,28 @@ body {
 }
 
 #sec__content-boxes--left {
-    border: 2px solid saddlebrown;
-    margin: 0px 7px 0px 0px;
+    margin: 0px 5px 0px 0px;
     width: 100%;
     height: 450px;
+    background-color: #E4D9FF;
+    border-top: 10px solid #081235;
 }
 
 #sec__content-boxes--middle {
-    border: 2px solid aqua;
-    margin: 0px 7px;
+    margin: 0px 5px;
     width: 100%;
     height: 450px;
+    background-color: #E4D9FF;
+    border-top: 10px solid #081235;
+
 }
 
 #sec__content-boxes--right {
-    border: 2px solid lawngreen;
-    margin: 0px 0px 0px 7px;
+    margin: 0px 0px 0px 5px;
     height: 450px;
     width: 100%;
+    border-top: 10px solid #081235;
+    background-color: #E4D9FF;
 }
 
 .sec__content--flex-column {
@@ -98,33 +119,32 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid slateblue;
     width: 100%;
 }
 
 .sec__content-headers-box {
-    border: 1px dashed olive;
     width: 100%;
     height: 80px;
     text-align: center;
 }
 
 .sec__content-headers {
-    border: 1px dashed fuchsia;
     font-size: 18px;
+    font-family: 'Commissioner';
+    color: #212121;
 }
 
 .sec__content-price-box {
-    border: 2px solid purple;
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: flex-start;
+    font-family: 'Commissioner';
+    font-weight: bold;
 }
 
 .img__dollar-sign-box {
-    border: 1px dashed lawngreen;
     width: 30px;
 
 }
@@ -135,13 +155,13 @@ body {
 }
 
 .p__dollar-sign {
-    margin: 0px 3px 0px 0px;
+    margin: 6px 3px 0px 0px;
     text-align: right;
     font-size: 30px;
+    color: #212121;
 }
 
 .p__content-header-price--large-box {
-    border: 1px dashed chocolate;
     width: 70px;
     height: 70px;
 }
@@ -149,29 +169,29 @@ body {
 .p__content-header-price--large {
     font-size: 60px;
     margin: 0;
+    color: #212121;
 }
 
 .p__content-header-price--small-box {
-    border: 1px dashed darkgoldenrod;
     width: 40px;
 
 }
 
 .p__content-header-price--small {
     font-size: 30px;
-    margin: 6px 0px 0px;
+    margin: 8px 0px 0px;
+    color: #212121;
 }
 
 .sec__content-price--extra {
-    border: 2px solid royalblue;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
+    font-family: 'Epilogue';
 }
 
 .p__payment-header-box {
-    border: 2px solid green;
 }
 
 .p__payment-header {
@@ -179,7 +199,6 @@ body {
 }
 
 .p__access-header-box {
-    border: 2px solid cyan;
 }
 
 .p__access-header {
@@ -187,7 +206,7 @@ body {
 }
 
 .div__decoration-bar {
-    height: 3px;
+    height: 2px;
     width: 90px;
     background-color: red;
 }
@@ -195,33 +214,33 @@ body {
 .div__link-box {
     display: flex;
     justify-content: space-around;
-    border: 2px solid darkolivegreen;
     margin: 0px 0px 30px;
     width: 85%;
     height: 55px;
+    background-color: #212121;
 }
 
 .a__links {
-    border: 1px dashed yellow;
     font-size: 20px;
     align-self: center;
+    color: white;
+    font-family: 'Commissioner';
 }
 
 
 /*Bottom half */
 #div__members-bottom {
-    border: 3px solid firebrick;
     display: flex;
     flex-direction: row;
     width: 100%;
     height: 850px;
+    color: white;
 }
 
 .div__content-boxes--flex-rows-box {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 2px solid saddlebrown;
     margin: 0px;
     width: 100%;
     justify-content: space-between;
@@ -231,43 +250,47 @@ body {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    border: 2px solid grey;
     align-items: center;
     width: 100%;
+    font-family: 'Dosis';
+    font-weight: 600;
 }
 
 .sec__add-ons-info--flex-col {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    border: 2px solid grey;
     align-items: center;
     margin-bottom: 50px;
     width: 100%;
+    font-family: 'Dosis';
+    font-weight: 600;
 }
 
 .sec__fees-info--flex-col {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    border: 2px solid grey;
     align-items: center;
     margin-bottom: 80px;
+    font-family: 'Dosis';
+    font-weight: 600;
 }
 
 .div__header-box {
-    border: 1px dashed olive;
+    margin-top: 35px;
     width: 100%;
 }
 
 .div__h3__header {
     font-size: 14px;
     text-align: center;
+    font-weight: bold;
+    font-family: 'Commissioner';
 }
 
 .div__membership-extras-box {
     margin: 5px 0px;
-    border: 1px dashed hotpink;
     width: 100%;
 }
 
@@ -279,41 +302,43 @@ body {
 }
 
 #div__content-boxes--left {
-    border: 2px solid gold;
-    margin: 0px 7px 0px 0px;
+    margin: 0px 5px 0px 0px;
+    background-color: #081235;
+    border-bottom: 12px solid #212121;
 }
 
 #div__content-boxes--middle {
-    margin: 0px 7px;
-    border: 2px solid deepskyblue;
+    margin: 0px 5px;
+    background-color: #081235;
+    border-bottom: 12px solid #212121;
 }
 
 #div__content-boxes--right {
-    margin: 0px 0px 0px 7px;
-    border: 2px solid purple;
+    margin: 0px 0px 0px 5px;
+    background-color: #081235;
+    border-bottom: 12px solid #212121;
 }
 
 
 
 
 footer {
-    border: 3px solid white;
     height: 150px;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: black;
+    color: white;
 }
 
 #footer__sec__logo-rights {
-    border: 2px solid darkolivegreen;
     text-align: center;
     width: 100%;
 }
 
 #div__logo-box {
-    border: 1px dashed tan;
     width: 100%;
     padding-bottom: 2.5px;
 }
@@ -322,10 +347,11 @@ footer {
     margin: 0;
     font-size: 20px;
     text-align: center;
+    font-family: 'Dosis';
+    font-weight: bold;
 }
 
 #div__rights-box {
-    border: 1px dashed skyblue;
     width: 100%;
 }
 
@@ -334,10 +360,6 @@ footer {
     font-size: 13px;
     text-align: center;
     padding-top: 2.5px;
+    color: #525252;
+    font-weight: bold;
 }
-
-
-/*We need to redo the classes for:
-    div__content-boxes--flex-rows-box
-   sec__membership-info--flex-col
-*/
