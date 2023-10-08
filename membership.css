@@ -87,7 +87,6 @@ body {
     width: 100%;
     height: 450px;
     background-color: #E4D9FF;
-    border-top: 10px solid #081235;
 }
 
 #sec__content-boxes--middle {
@@ -95,7 +94,6 @@ body {
     width: 100%;
     height: 450px;
     background-color: #E4D9FF;
-    border-top: 10px solid #081235;
 
 }
 
@@ -103,7 +101,6 @@ body {
     margin: 0px 0px 0px 5px;
     height: 450px;
     width: 100%;
-    border-top: 10px solid #081235;
     background-color: #E4D9FF;
 }
 
@@ -215,8 +212,8 @@ body {
     display: flex;
     justify-content: space-around;
     margin: 0px 0px 30px;
-    width: 85%;
-    height: 55px;
+    width: 90%;
+    height: 50px;
     background-color: #212121;
 }
 
@@ -303,20 +300,20 @@ body {
 
 #div__content-boxes--left {
     margin: 0px 5px 0px 0px;
-    background-color: #081235;
-    border-bottom: 12px solid #212121;
+    background: linear-gradient(to right, #273469, #1E2749);
+    border-bottom: 10px solid #212121;
 }
 
 #div__content-boxes--middle {
     margin: 0px 5px;
-    background-color: #081235;
-    border-bottom: 12px solid #212121;
+    background: linear-gradient(to right, #1E2749, #081235);
+    border-bottom: 10px solid #212121;
 }
 
 #div__content-boxes--right {
     margin: 0px 0px 0px 5px;
-    background-color: #081235;
-    border-bottom: 12px solid #212121;
+    background: linear-gradient(to right, #081235, #04091a);
+    border-bottom: 10px solid #212121;
 }
 
 
@@ -362,4 +359,35 @@ footer {
     padding-top: 2.5px;
     color: #525252;
     font-weight: bold;
+}
+
+
+/* Fix the grey border on the bottom
+    Replace the top dark blue border with a box in its place and make it slightly thinner
+    Make the select box slightly wider
+
+
+    Add an animation when we hover over the select box, it changes colors
+    Make sure to add a logo
+*/
+
+#div__sub-border-block--gradient-blue--left {
+    display: block;
+    height: 10px;
+    width: 100%;
+    background: linear-gradient(to right, #273469, #1E2749);
+}
+
+#div__sub-border-block--gradient-blue--middle {
+    display: block;
+    height: 10px;
+    width: 100%;
+    background: linear-gradient(to right, #1E2749, #081235);
+}
+
+#div__sub-border-block--gradient-blue--right {
+    display: block;
+    height: 10px;
+    width: 100%;
+    background: linear-gradient(to right, #081235, #04091a);
 }
