@@ -214,9 +214,60 @@ body {
     margin: 0px 0px 30px;
     width: 90%;
     height: 50px;
+    overflow: hidden;
     background-color: #212121;
 }
 
+#div__link-box-left::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #273469, #1E2749); /* Initial gradient */
+    transform: scaleX(0); /* Initial scale to 0, making it invisible */
+    transform-origin: left;
+    transition: transform 0.65s ease-in-out; /* Add a transition effect */
+}
+
+#div__link-box-left:hover::before {
+    transform: scaleX(1); /* Scale it to 100% width on hover */
+}
+
+#div__link-box-middle::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #1E2749, #081235); /* Initial gradient */
+    transform: scaleX(0); /* Initial scale to 0, making it invisible */
+    transform-origin: left;
+    transition: transform 0.65s ease-in-out; /* Add a transition effect */
+}
+
+#div__link-box-middle:hover::before {
+    transform: scaleX(1); /* Scale it to 100% width on hover */
+}
+
+#div__link-box-right::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to right, #081235, #04091a); /* Initial gradient */
+    transform: scaleX(0); /* Initial scale to 0, making it invisible */
+    transform-origin: left;
+    transition: transform 0.65s ease-in-out; /* Add a transition effect */
+}
+
+#div__link-box-right:hover::before {
+    transform: scaleX(1); /* Scale it to 100% width on hover */
+}
 .a__links {
     font-size: 20px;
     align-self: center;
